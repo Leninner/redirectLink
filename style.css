@@ -53,8 +53,7 @@ body {
 }
 
 #menu-top a:hover {
-    color: #ff6b6b;
-    font-weight: bold;
+    color: #ff00b3;
 }
 
 #main .links {
@@ -62,13 +61,37 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 30rem;
+    height: 33rem;
+    background-image: radial-gradient(
+        ellipse closest-side at 50% 50%,
+        #3a3f45,
+        #37383c 25%,
+        #343233
+    );
 }
 
 #cajaLinks {
     width: 30%;
-    height: 375px;
-    background-color: tomato;
+    height: 450px;
+    border-radius: 50px;
+    background: linear-gradient(0deg, #ff0cae, #3801ff);
+    box-shadow: 20px 20px 62px #161a1d, -10px -10px 50px #161a1d;
+    align-items: center;
+}
+
+/* Este código sirve para que los divs cambien de color */
+#cajaLinks div:hover {
+    background-color: rgb(255, 0, 242);
+    color: rgb(255, 255, 255);
+}
+
+#cajaLinks img {
+    width: 35px;
+    margin: 10px;
+}
+#cajaLinks a {
+    text-decoration: none;
+    color: black;
 }
 
 .social {
@@ -77,9 +100,12 @@ body {
     justify-content: center;
     width: 60%;
     height: 50px;
-    background-color: rgb(158, 158, 163);
+    background-color: rgb(255, 255, 255);
     /* NOTE: Con este margen podemos dentrar un DIV, DENTRO DE OTRO */
-    margin: 30px auto;
+    margin: 34px auto;
+}
+.social {
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 900px) {
