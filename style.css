@@ -118,6 +118,10 @@ body {
         font-size: 12px;
     }
 
+    #cajaLinks {
+        width: 70%;
+    }
+
     #menu-top a {
         color: #f7fff7;
         text-decoration: none;
