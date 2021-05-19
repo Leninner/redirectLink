@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+#title:hover {
+    color: #ff00b3;
+}
 .header {
     display: flex;
     align-items: center;
@@ -64,7 +67,7 @@ body {
     height: 33rem;
     background-image: radial-gradient(
         ellipse closest-side at 50% 50%,
-        #3a3f45,
+        #494c50,
         #37383c 25%,
         #343233
     );
@@ -95,6 +98,8 @@ body {
 }
 
 .social {
+    box-shadow: 2px 2px 6px #161a1d, -1px -1px 5px #c300ff;
+    border-radius: 9px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,8 +108,6 @@ body {
     background-color: rgb(255, 255, 255);
     /* NOTE: Con este margen podemos dentrar un DIV, DENTRO DE OTRO */
     margin: 34px auto;
-}
-.social {
     font-weight: bold;
 }
 
